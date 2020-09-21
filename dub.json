@@ -1,0 +1,12 @@
+{
+	"name": "test_project",
+	"targetName": "app",
+	"targetPath": "build",
+	"sourceFiles": ["source/app.d"],
+	"sourcePaths": ["source"],
+	"toolchainRequirements": {
+		"dmd": "no",
+		"gdc": "no",
+		"ldc": ">=1.0.0"
+	}
+}
